@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 
 /* Starting the server and listening on port */
-var server  = app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
 
         console.log("Server is up and running at localhost:3000");
 

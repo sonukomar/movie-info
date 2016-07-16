@@ -1,0 +1,27 @@
+{
+  "name": "movie-info",
+  "version": "1.0.0",
+  "description": "This website contains information about bollywood movies.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonukomar/movie-info.git"
+  },
+  "keywords": [
+    "bollywood",
+    "movies"
+  ],
+  "author": "Sonu Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonukomar/movie-info/issues"
+  },
+  "homepage": "https://github.com/sonukomar/movie-info#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0"
+  }
+}

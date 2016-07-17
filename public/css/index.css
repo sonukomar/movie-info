@@ -1,0 +1,21 @@
+/* Index page styling */
+
+body{
+	overflow-x:hidden;
+}
+
+.cover-pic{
+	position: relative;
+	background-image: url("/images/banner2.jpg");
+    background-size: cover;
+    height: 350px;
+    background-position-y: -300px;
+}
+
+.profile-pic{
+	position: absolute;
+	width:15%;
+	top:70%;
+	left:2%;
+}
+

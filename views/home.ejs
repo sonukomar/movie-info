@@ -9,14 +9,29 @@
 
     <% include partials/header.ejs %>
 
-        <div id="hero-image">
-                <h1 id="hero-title"><%= title %></h1>
+        <div class="cover-pic">
+          <div class="header-top-bar">
+            <nav class="navbar navbar-fixed-top">
+                <div class="content-padding">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Contact</a></li>
+                        <li><a href="/">Blog</a></li>
+                    </ul> 
+                </div> 
+            </nav>        
+          </div>
+          <div class="profile-pic">
+            <img class="img-responsive img-thumbnail" src="/images/sonu.jpg">
+          </div>
+          <div class="user-name">
+            <span>Mr.XYZ </span>
+          </div>
         </div>
 
 
-        <div id="posters-wrapper" class="content-padding clearfix">
-
-        </div>
+       
 
     <% include partials/footer.ejs %>
     <% include partials/scripts.ejs %>

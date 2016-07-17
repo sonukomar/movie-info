@@ -19,7 +19,7 @@ var routes = require('./routes');
 
 app.get('/',routes.home);
 
-app.get('*',routes.notFound);
+// app.get('*',routes.notFound);
 
 /* Setting name of template engine used */
 app.set('view engine','ejs');

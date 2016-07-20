@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
   <% include partials/head.ejs %>
 
   </head>
-  <body>
+  <body onload="initateProgress();">
 
     <% include partials/header.ejs %>
 
@@ -18,22 +18,191 @@
                         <li><a href="/">About</a></li>
                         <li><a href="/">Contact</a></li>
                         <li><a href="/">Blog</a></li>
-                    </ul> 
-                </div> 
-            </nav>        
-          </div>
+                    </ul>
+                </div>
+            </nav>
+
+
           <div class="profile-pic">
-            <img class="img-responsive img-thumbnail" src="/images/sonu.jpg">
+            <img class="img-responsive img-thumbnail" src="/images/4.jpg">
+            <a href=""><span class="pull-right glyphicon glyphicon-camera update">  </span></a>
           </div>
           <div class="user-name">
-            <span>Mr.XYZ </span>
+            <span>Sonu Kumar</span>
+
           </div>
         </div>
 
+        <div class="cover-pic-border">
+          <ul style="display:none" class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">Blog</a></li>
+          </ul>
+        </div>
+        <div class="row" style="margin-top:348px;">
+          <div class="col-md-2 userInfo">
+            <h5>Westend Heights, Bangalore Karantaka</h5>
+            <h5>+91-9590960483</h5>
+            <h5>enggsonukomar@gmail.com</h5>
+            <h5><a href="https://pricelessgyan.wordpress.com">https://pricelessgyan.wordpress.com</a></h5>
+            <h5></h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info progress-bar-striped" id="loading" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                <span class="sr-only">20% Complete</span>
+              </div>
+            </div
+            </div>
+          </div>
+          <div class="col-md-1 ">
 
-       
 
-    <% include partials/footer.ejs %>
+          </div>
+
+          <div class="col-md-7 latestDetails">
+            <textarea name="name" rows="5" cols="100" placeholder="What's on your mind?"></textarea>
+            <button class="btn btn-default postBtn pull-right">Post</button>
+            <div class="clearfix"></div>
+            <hr></hr>
+            <div class="col-md-12">
+              <div class="col-md-2">
+                <img class="img-responsive img-thumbnail" src="/images/sonu.jpg" alt="">
+                <h6>19th July 1:30 PM</h6>
+                <h6>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-up">51</span></a>&nbsp;
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-down">10</span></a>&nbsp;
+                  <a href="#"><span class="glyphicon glyphicon-heart-empty">100</span></a>
+                </h6>
+              </div>
+              <div class="col-md-10">
+                  <p class="text-justify">
+                    Puducherry, Jul 18 () Dravida Munnetra Kazhagam, an alliance partner of ruling Congress supporting the Narayanasamy-led Congress government from outside, has called upon the government to initiate steps for amelioration of the lot of the scheduled castes. The DMK legislator and chairman of Puducherry government owned Industries Corporation R Siva today presented a 17-point charter of demands to Chief Minister, seeking steps to provide financial assistance to the scheduled caste entrepreneurs to start industries. He also wanted strict utilisation of funds earmarked under 'special component plan' for the developmental schemes for the depressed sections. Siva brought to the notice of the Chief Minister the housing requirements and educational facilities for the scheduled castes which, he alleged, were ignored during the previous AINRC rule. He appealed to the Chief Minister to bring in a separate legislation for the utilisation of the funds under special component plan.
+                  </p>
+                  <hr></hr>
+              </div>
+
+            </div>
+
+            <div class="col-md-12">
+              <div class="col-md-2">
+                <img class="img-responsive img-thumbnail" src="/images/banner2.jpg" alt="">
+                <h6>19th July 1:30 PM</h6>
+                <h6>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-up">51</span></a>&nbsp;
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-down">10</span></a>&nbsp;
+                  <a href="#"><span class="glyphicon glyphicon-heart-empty">100</span></a>
+                </h6>
+              </div>
+              <div class="col-md-10">
+                  <p class="text-justify">
+                  Aerial picture pairs, when viewed through a stereo viewer, offer a pronounced stereo effect of landscape and buildings. High buildings appear to 'keel over' in the direction away from the centre of the photograph. Measurements of this parallax are used to deduce the height of the buildings, provided that flying height and baseline distances are known. This is a key component to the process of photogrammetry.
+                  </p>
+                  <hr></hr>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="col-md-2">
+                <img class="img-responsive img-thumbnail" src="/images/banner3.jpg" alt="">
+                <h6>19th July 1:30 PM</h6>
+                <h6>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-up">51</span></a>&nbsp;
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-down">10</span></a>&nbsp;
+                  <a href="#"><span class="glyphicon glyphicon-heart-empty">100</span></a>
+                </h6>
+              </div>
+              <div class="col-md-10">
+                  <p class="text-justify">
+                  In a philosophic/geometric sense: an apparent change in the direction of an object, caused by a change in observational position that provides a new line of sight. The apparent displacement, or difference of position, of an object, as seen from two different stations, or points of view. In contemporary writing parallax can also be the same story, or a similar story from approximately the same time line, from one book told from a different perspective in another book. The word and concept feature prominently in James Joyce's 1922 novel, Ulysses. Orson Scott Card also used the term when referring to Ender's Shadow as compared to Ender's Game.
+                  </p>
+                  <hr></hr>
+              </div>
+            </div>
+            <a href="#" class="pull-right">View More..</a>
+          </div>
+
+          <div class="col-md-1 chatwindow">
+            <div class="chatHeader">
+              <span class="glyphicon glyphicon-remove"></span>
+              <span class="glyphicon glyphicon-minus"></span>
+              <span class="glyphicon glyphicon-fullscreen"></span>
+            </div>
+            <div class="chatContact">
+              <img class="img-responsive img-chat img-circle" src="/images/1.jpg" alt="">
+              <span>Sonu Kumar</span>
+              <span class="pull-right online glyphicon glyphicon-comment"></span>
+              <hr style="margin-top:5px;margin-bottom:5px;">
+            </div>
+            <div class="chatContact">
+              <img class="img-responsive img-chat img-circle" src="/images/2.jpg" alt="">
+              <span>Rohit Aggrawal</span>
+              <span class="pull-right online glyphicon glyphicon-comment"></span>
+              <hr style="margin-top:5px;margin-bottom:5px;">
+            </div>
+            <div class="chatContact">
+              <img class="img-responsive img-chat img-circle" src="/images/4.jpg" alt="">
+              <span>Sushil Kumar</span>
+              <span class="pull-right online glyphicon glyphicon-comment"></span>
+              <hr style="margin-top:5px;margin-bottom:5px;">
+            </div>
+            <div class="chatContact">
+              <img class="img-responsive img-chat img-circle" src="/images/6.jpg" alt="">
+              <span>Raman Valla</span>
+              <span class="pull-right online glyphicon glyphicon-comment"></span>
+              <hr style="margin-top:5px;margin-bottom:5px;">
+            </div>
+            <div class="chatContact">
+              <img class="img-responsive img-chat img-circle" src="/images/34.jpg" alt="">
+              <span>Dev singh</span>
+              <span class="pull-right online glyphicon glyphicon-comment"></span>
+              <hr style="margin-top:5px;margin-bottom:5px;">
+            </div>
+            <div class="chatContact">
+              <img class="img-responsive img-chat img-circle" src="/images/sonu.jpg" alt="">
+              <span>John cena</span>
+              <span class="pull-right online glyphicon glyphicon-comment"></span>
+              <hr style="margin-top:5px;margin-bottom:5px;">
+            </div>
+            <div class="chatContact">
+              <img class="img-responsive img-chat img-circle" src="/images/6.jpg" alt="">
+              <span>Raman Valla</span>
+              <span class="pull-right online glyphicon glyphicon-comment"></span>
+              <hr style="margin-top:5px;margin-bottom:5px;">
+            </div>
+            <div class="chatContact">
+              <img class="img-responsive img-chat img-circle" src="/images/6.jpg" alt="">
+              <span>Raman Valla</span>
+              <span class="pull-right online glyphicon glyphicon-comment"></span>
+              <hr style="margin-top:5px;margin-bottom:5px;">
+            </div>
+            <div class="chatFooter">
+              <div class="input-group">
+
+                <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" >
+                <span class="glyphicon glyphicon-search chatSearch" aria-hidden="true"></span>
+
+              </div>
+              <div class="chatFooterIcon">
+                <span class="glyphicon glyphicon-cog pull-right" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-volume-off pull-right" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-off pull-right" aria-hidden="true"></span>
+
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+    <!-- <% include partials/footer.ejs %> -->
     <% include partials/scripts.ejs %>
 
    </body>

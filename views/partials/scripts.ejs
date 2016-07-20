@@ -1,3 +1,31 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Great+Vibes" rel="stylesheet">
+<script>
+function initateProgress(){
+  var percentage = 0;
+  setInterval(function () {
+    if(percentage < 100){
+      percentage = percentage + 1;
 
+      updateDom(percentage);
+    }
+    else{
+        $("#loading").text("Completed..");
+    }
+
+  }, 500);
+
+}
+
+
+
+function updateDom(value){
+
+  var div = document.getElementById("loading");
+  $("#loading").text(value+"%");
+  $("#loading").css("color","black");
+  div.style.width = value + "%";
+}
+
+</script>
